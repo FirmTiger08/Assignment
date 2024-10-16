@@ -1,0 +1,72 @@
+body {
+    background-image: url('bg.jpg');
+    font-family: 'Bahnschrift', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+}
+
+header {
+    background-color: rgba(2, 0, 16, 0.75);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+header h1 {
+    background-image: url('graphitti.png');
+    font-family: 'ROG FONTS', sans-serif; 
+    font-size: 50px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.bike-details {
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.bike-image {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+}
+
+.price {
+    font-size: 1.2em;
+    color: #2c0000; 
+}
+
+.spec-list {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.spec-list li {
+    padding: 8px 0; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2d2a27;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
